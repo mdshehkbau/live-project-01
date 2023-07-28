@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+/* Use ::selection (tag::selection ) Selector */
+::selection {
+	background: #000;
+	color: #f1e208;
+}
+
+.header_area {
+	background: #3A5795;
+	padding: 10px 0;
+}
+.alignment {
+	width: 90%;
+	margin: auto;
+}
+.header_area .logo_area {
+	width: 30%;
+	float: left;
+}
+.header_area .login_area {
+	width: 70%;
+	overflow: hidden;
+}
+.login_area label,
+.login_area input {
+	display: block;
+}
+.login_area input[type="checkbox"] {
+	float: left;
+}
+.login_area .username_area {
+	float: left;
+	margin-right: 15px;
+}
+.login_area .password_area {
+	float: left;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.login_area .submit_area {
+	float: left;
+	overflow: hidden;	
+}
+.login_area label {
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+.login_area input {
+	margin: 5px 0 2px;
+	border: 1px solid #1D2A5B;
+	padding: 2px;
+}
+.login_area a {
+	font-size: 14px;
+	color: #8CACC3;
+	text-decoration: none;
+}
+.login_area a:hover {
+	text-decoration: underline;
+}
+.login_area label:last-child {
+	margin-top: 3px;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: 2px;	
+	color: #8CACC3;
+}
+.submit_area input[type="submit"] {
+	margin-top: 20px;
+	background: #5A74A8;
+	color: #fff;
+	text-transform: capitalize;
+}
+.login_area form {
+	float: right;
+}
+
+ /* Main Area CSS */
+.main_area {
+	background: linear-gradient(white, #f1f1fa);
+	font-family: tahom, serif;
+	padding: 20px 0;
+}
+.mobile_area {
+	width: 50%;
+	float: left;
+	margin-right: 10%;
+}
+.sign_up_area {
+	width: 40%;
+	overflow: hidden;
+}
+.mobile_image {
+	float: left;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+.molile_text {
+	overflow: hidden;
+	padding-bottom: 20px;
+	
+}
+.molile_text h4 { 
+	font-size: 14px;
+	color: #5A74A8;
+	font-weight: 500;
+}
+.main_area p {
+	font-size: 13px;
+	color: #8191b3;
+	font-weight: 500;
+}
+.molile_text a {
+	text-transform: capitalize;
+	text-decoration: none;
+	border: 1px solid #5A74A8;
+	color: #000000;
+	font-size: 13px;
+	padding: 3px 0 3px;
+	background-image: linear-gradient(#ffffff, #e6e6e6);
+	float: right;
+	margin-top: 40px;
+}
+.mobile {
+	margin-top: 30px;
+	background: url('img/background.png') no-repeat;
+	background-position: left bottom;
+	min-height: 290px;
+}
+
+/* Sign Up Area */
+.sign_up_area {
+	padding-bottom: 30px;
+}
+.sign_up_area form {
+	margin-top: 20px;
+}
+.sign_up_area h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	margin: 0;
+	text-transform: capitalize;
+}
+.sign_up_area h4  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0;
+}
+.sign_up_area input[type="text"],
+.sign_up_area input[type="password"] {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #C1CADA;
+	box-sizing: border-box;
+	padding: 10px 5px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+.sign_up_area input[type="text"]:first-child {
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+
+.sign_up_area input[type="text"]:nth-child(2) {
+	width: 48%;
+	overflow: hidden;
+}
+.birthday  {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.birthday select {
+	padding: 6px 2px;
+	float: left;
+}
+.birthday select:last-of-type {
+	margin-right: 10px;
+}
+.sign_up_area a {
+	font-size: 13px;
+	text-decoration: none;
+	color: #3A5795;
+	
+}
+.sign_up_area a:hover {
+	text-decoration: underline;
+}
+.genger {
+	margin: 10px 0;
+}
+.genger label {
+	cursor: pointer;
+}
+.sign_up_area input[type="submit"] {
+	background: linear-gradient(#5D9149, #75B560);
+	color:#ffffff;
+	font-weight: 600;
+	border: 1px solid #33482a;
+	padding: 10px 80px;
+	border-radius: 6px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+.sign_up_area input[type="submit"]:hover {
+	background: linear-gradient(#75B560, #5D9149);
+}
+hr {
+	border: 0;
+	border-bottom: 1px solid #666666;
+}
+.page {
+	margin: 15px 0;
+}
+
+/*Footer Area*/
+.footer_area {
+	font-family: tahoma;
+	font-size: 14px;
+}
+.footer_area ul {
+	list-style: none;
+}
+.footer_area ul li {
+	float: left;
+}
+.footear_top,
+.footer_bottom {
+	overflow: hidden;
+	padding: 10px 0;
+}
+.footear_top li:last-child a {
+	background: #D7DBEA;
+}
+.footear_top li:last-child a:hover {
+	background: #32384b;
+}
+.footer_area li  a {
+	text-decoration: none;
+	padding: 8px 15px;
+	display: block;
+	color: #3A5795;
+}
+.footer_bottom ul {
+	width: 80%;
+}
+
+
+/* Resonsive */
+
+@media all and (max-width: 768px) {
+	.header_area .logo_area {
+		float: none;
+		margin-bottom: 30px;
+		text-align: center;
+		width: 100%;
+	}
+	.header_area .login_area {
+		width: 100%;
+	}
+	.login_area form {
+		float: none;
+		width: 365px;
+		margin: auto;
+	}
+	.sign_up_area {
+		width: 100%;
+		float: none;
+	}
+	.mobile_area {
+		width: 100%;
+	}
+}
+@media all and (max-width: 400px) {
+	.login_area form {
+		width: auto;
+	}
+	.login_area .username_area,
+	.login_area .password_area {
+		float: none;
+	}
+	.login_area input[type="text"],
+	.login_area input[type="password"] {
+		width: 100%;
+	}
+	
+}
